@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html class="no-js">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Prueba</title>
+    <link rel="stylesheet" href="Css/css.css">
+</head>
+
+<body>
+
+    
+    <div class="container">
+        <form
+            action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSf9Drc08xaBj8aC6dMoZDJCaS9pWksL9QZont2M1pJ1nsL7wg/formResponse"
+            method="POST">
+            <!-- Respuesta Corta -->
+            <br>
+            <p>¿Como te llamas?</p>
+            <br>
+
+            <br><input type="text" name="entry.1417613884" placeholder="Nombre">
+            <br>
+            <!-- Selector único -->
+            <br>
+            <p>¿Te gusta el pan?</p> <br>
+
+
+
+            <input type="radio" id="Si" name="entry.980235764" value="Si">
+            <label for="Si">Si</label><br>
+            <input type="radio" id="No" name="entry.980235764" value="No">
+            <label for="No">No</label><br>
+            <input type="radio" id="A veces" name="entry.980235764" value="A veces">
+            <label for="No se">No se</label><br><br>
+
+
+            <br>
+            <!-- Check box | Selección múltiple -->
+            <p>¿Con qué te gusta el pan?</p>
+            <input type="checkbox" id="queso" name="entry.931119756" value="Queso">
+            <label for="queso"> Queso</label><br>
+            <input type="checkbox" id="mantequilla" name="entry.931119756" value="Mantequilla">
+            <label for="mantequilla"> Mantequilla</label><br>
+            <input type="checkbox" id="jamon" name="entry.931119756" value="Jamón">
+            <label for="jamon"> Jamón</label><br>
+            <input type="checkbox" id="mermelada" name="entry.931119756" value="Mermelada">
+            <label for="mermelada"> Mermelada</label><br><br>
+
+            <br>
+            <!-- Selector desplegable -->
+            <label for="bebida">¿Con que bebida acompañas el pan?</label>
+            <br><br>
+            <select id="bebida" name="entry.1573124959">
+                <option value="Té">Té</option>
+                <option value="Café">Café</option>
+                <option value="Bebida">Bebida</option>
+                <option value="Jugo">Jugo</option>
+            </select>
+
+            <br><br>
+            <input type="submit" value="Submit">
+
+
+        </form>
+<!-- Para hacer efectivo el valor del enlace de excel con el html en los inputs de selección el "value"
+debe tener exactamente el mismo nombre que la opción escrita antes en el formulario de google,
+de esta forma el sistema se enlaza en las opciones para que aparescan -->
+    </div>
+
+</body>
+
+</html>
+
+</html>
